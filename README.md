@@ -31,12 +31,14 @@ Simply build the project on Visual Studio 2022 and run it.
 
 
 📦ContosoUniversity
+
  ┣ 📂ContosoUniversity
  ┃ ┣ 📂App_Data
  ┃ ┣ 📂App_Start
  ┃ ┃ ┣ 📜BundleConfig.cs
  ┃ ┃ ┣ 📜FilterConfig.cs
  ┃ ┃ ┗ 📜RouteConfig.cs
+
  ┃ ┣ 📂bin
  ┃ ┣ 📂Content
  ┃ ┣ 📂Controllers
@@ -45,12 +47,14 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┃ ┣ 📜HomeController.cs
  ┃ ┃ ┣ 📜InstructorController.cs
  ┃ ┃ ┗ 📜StudentController.cs
+
  ┃ ┣ 📂DAL
  ┃ ┃ ┣ 📜SchoolConfiguration.cs
  ┃ ┃ ┣ 📜SchoolContext.cs
  ┃ ┃ ┣ 📜SchoolInicializer.cs
  ┃ ┃ ┣ 📜SchoolInterceptorLoggingcs.cs
  ┃ ┃ ┗ 📜SchoolInterceptorTransientErrors.cs
+
  ┃ ┣ 📂fonts
  ┃ ┣ 📂Logging
  ┃ ┣ 📂Migrations
@@ -62,6 +66,7 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┃ ┣ 📜OfficeAssignment.cs
  ┃ ┃ ┣ 📜Person.cs
  ┃ ┃ ┗ 📜Student.cs
+ 
  ┃ ┣ 📂obj
  ┃ ┣ 📂Properties
  ┃ ┣ 📂Scripts
