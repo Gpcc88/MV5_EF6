@@ -33,20 +33,20 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃
  ┣ 📂ContosoUniversity
  ┃ ┣ 📂App_Data
- ┃ ┃
+
  ┃ ┣ 📂App_Start
- ┃ ┃
+
  ┃ ┣ 📂bin
- ┃ ┃
+
  ┃ ┣ 📂Properties
- ┃ ┃
+
  ┃ ┣ 📂Scripts.
 
  ┃ ┣ 📂ViewModels
  ┃ ┃ ┣ 📜AssignedCourseData.cs
  ┃ ┃ ┣ 📜EnrollmentDateGroup.cs
  ┃ ┃ ┗ 📜InstructorIndexData.cs
- ┃ ┃
+
  ┃ ┣ 📂Views
  ┃ ┃ ┣ 📂Course
  ┃ ┃ ┃ ┣ 📜Create.cshtml
@@ -55,40 +55,40 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┃ ┃ ┣ 📜Edit.cshtml
  ┃ ┃ ┃ ┣ 📜Index.cshtml
  ┃ ┃ ┃ ┗ 📜UpdateCourseCredits.cshtml
- ┃ ┃ ┃ 
+
  ┃ ┃ ┣ 📂Department
  ┃ ┃ ┃ ┣ 📜Create.cshtml
  ┃ ┃ ┃ ┣ 📜Delete.cshtml
  ┃ ┃ ┃ ┣ 📜Details.cshtml
  ┃ ┃ ┃ ┣ 📜Edit.cshtml
  ┃ ┃ ┃ ┗ 📜Index.cshtml
- ┃ ┃ ┃
+
  ┃ ┃ ┣ 📂Home
  ┃ ┃ ┃ ┣ 📜About.cshtml
  ┃ ┃ ┃ ┣ 📜Contact.cshtml
  ┃ ┃ ┃ ┗ 📜Index.cshtml
- ┃ ┃ ┃
+
  ┃ ┃ ┣ 📂Instructor
  ┃ ┃ ┃ ┣ 📜Create.cshtml
  ┃ ┃ ┃ ┣ 📜Delete.cshtml
  ┃ ┃ ┃ ┣ 📜Details.cshtml
  ┃ ┃ ┃ ┣ 📜Edit.cshtml
  ┃ ┃ ┃ ┗ 📜Index.cshtml
- ┃ ┃ ┃
+
  ┃ ┃ ┣ 📂Shared
  ┃ ┃ ┃ ┣ 📜Error.cshtml
  ┃ ┃ ┃ ┗ 📜_Layout.cshtml
- ┃ ┃ ┃
+
  ┃ ┃ ┣ 📂Student
  ┃ ┃ ┃ ┣ 📜Create.cshtml
  ┃ ┃ ┃ ┣ 📜Delete.cshtml
  ┃ ┃ ┃ ┣ 📜Details.cshtml
  ┃ ┃ ┃ ┣ 📜Edit.cshtml
  ┃ ┃ ┃ ┗ 📜Index.cshtml
- ┃ ┃ ┃
+
  ┃ ┃ ┣ 📜Web.config
  ┃ ┃ ┗ 📜_ViewStart.cshtml
- ┃ ┃ 
+
  ┃ ┣ 📜ContosoUniversity.csproj
  ┃ ┣ 📜ContosoUniversity.csproj.user
  ┃ ┣ 📜favicon.ico
@@ -98,7 +98,7 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┣ 📜Web.config
  ┃ ┣ 📜Web.Debug.config
  ┃ ┗ 📜Web.Release.config
- ┃ ┃ 
+
  ┣ 📂packages
  ┣ 📜.gitignore
  ┣ 📜ContosoUniversity.sln
