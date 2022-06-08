@@ -32,20 +32,17 @@ Simply build the project on Visual Studio 2022 and run it.
 	📦ContosoUniversity
 		┣ 📂ContosoUniversity
 		┃ ┣ 📂App_Data
-		┃ ┣ 📂App_Start
-		┃ ┣ 📂bin
-		┃ ┣ 📂Content
-		┃ ┣ 📂Controllers
-		┃ ┣ 📂DAL
+		┃ ┣ 📂App_Start					#MapRoute Configuration.
+		┃ ┣ 📂Content					#precompiled files of Bootstrap.
+		┃ ┣ 📂Controllers				#Classes for interaction between user and MVC APP.
+		┃ ┣ 📂DAL					#Data Access Layer for access to entity-relational database
 		┃ ┣ 📂fonts
 		┃ ┣ 📂Logging
-		┃ ┣ 📂Migrations
-		┃ ┣ 📂Models
-		┃ ┣ 📂obj
-		┃ ┣ 📂Properties
+		┃ ┣ 📂Migrations					#Deploy changes to production without having to drop and re-create the database.
+		┃ ┣ 📂Models					#Determines the shape of the data as public properties and business logic as methods.
 		┃ ┣ 📂Scripts
-		┃ ┣ 📂ViewModels
-		┃ ┣ 📂Views
+		┃ ┣ 📂ViewModels					#Contains fields that are represented in the view				
+		┃ ┣ 📂Views					#Contains template and data form. Receives data from the controller and shows them in the browser.				
 		┃ ┃ ┣ 📂Course
 		┃ ┃ ┣ 📂Department
 		┃ ┃ ┣ 📂Home
