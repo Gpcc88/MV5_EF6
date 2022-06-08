@@ -30,36 +30,13 @@ Simply build the project on Visual Studio 2022 and run it.
 ## <a name="structure">Tree Structure
 
 .
-└── 📦ContosoUniversity
-    ├── 📂ContosoUniversity
-    │   ├── 📂App_Data
-    │   ├── 📂App_Start
-    │   ├── 📂bin
-    │   ├── 📂Properties
-    │   ├── 📂Scripts
-    │   ├── 📂ViewModels
-    │   ├── 📂Views
-    │   │   ├── 📂Course
-    │   │   ├── 📂Department
-    │   │   ├── 📂Home
-    │   │   ├── 📂Instructor
-    │   │   ├── 📂Shared
-    │   │   └── 📂Student
-    │   ├── 📜Web.config
-    │   ├── 📜_ViewStart.cshtml  
-    │   ├── 📜ContosoUniversity.csproj
-    │   ├── 📜ContosoUniversity.csproj.user
-    │   ├── 📜favicon.ico  
-    │   ├── 📜Global.asax
-    │   ├── 📜Global.asax.cs
-    │   ├── 📜packages.config
-    │   ├── 📜Web.config
-    │   ├── 📜Web.Debug.config
-    │   └── 📜Web.Release.config
-    ├── 📂packages
-    ├── 📜.gitignore
-    ├── 📜ContosoUniversity.sln
-    └── 📜README.md
+├── build                   # Compiled files (alternatively `dist`)
+├── docs                    # Documentation files (alternatively `doc`)
+├── src                     # Source files (alternatively `lib` or `app`)
+├── test                    # Automated tests (alternatively `spec` or `tests`)
+├── tools                   # Tools and utilities
+├── LICENSE
+└── README.md
 
 [Back to Table of contents](#top)
 
