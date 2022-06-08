@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SchoolContext-Web.config Connection String" description="SchoolContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:cuniversitytask2-server.database.windows.net,1433;Initial Catalog=dbuc;Persist Security Info=False;User ID=cuniversitytask2-server-admin;Password=Q2SW47EURKB17YU6$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\POLIDO\ Gonçalo\\source\\repos\\Tarefa\ 2\\ContosoUniversity\\ContosoUniversity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SchoolContext']/@connectionString" />
+  </parameter>
+</parameters>

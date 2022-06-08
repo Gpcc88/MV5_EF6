@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/cuniversitytask2-server/databases/dbuc",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:dbuc"
+    }
+  }
+}
