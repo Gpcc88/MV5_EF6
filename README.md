@@ -44,8 +44,10 @@ Simply build the project on Visual Studio 2022 and run it.
 |   |   packages.config
 |   |   Web.config
 |   |   Web.Debug.config
-|   |   Web.Release.config     
+|   |   Web.Release.config   
+|   |    
 |   +---App_Data
+|   |  
 |   +---App_Start
 |   |       BundleConfig.cs
 |   |       FilterConfig.cs
