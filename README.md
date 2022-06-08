@@ -35,6 +35,7 @@ Simply build the project on Visual Studio 2022 and run it.
 |   output.doc
 |   README.md
 |   test 
+|   
 +---ContosoUniversity
 |   |   ContosoUniversity.csproj
 |   |   ContosoUniversity.csproj.user
@@ -52,20 +53,25 @@ Simply build the project on Visual Studio 2022 and run it.
 |   |       BundleConfig.cs
 |   |       FilterConfig.cs
 |   |       RouteConfig.cs
-|   +---bin       
-|   +---Content      
+|   |  
+|   +---bin    
+|   |    
+|   +---Content   
+|   |     
 |   +---Controllers
 |   |       CourseController.cs
 |   |       DepartmentController.cs
 |   |       HomeController.cs
 |   |       InstructorController.cs
-|   |       StudentController.cs      
+|   |       StudentController.cs  
+|   |     
 |   +---DAL
 |   |       SchoolConfiguration.cs
 |   |       SchoolContext.cs
 |   |       SchoolInicializer.cs
 |   |       SchoolInterceptorLoggingcs.cs
-|   |       SchoolInterceptorTransientErrors.cs     
+|   |       SchoolInterceptorTransientErrors.cs 
+|   |      
 |   +---fonts     
 |   +---Logging      
 |   +---Migrations
@@ -84,7 +90,8 @@ Simply build the project on Visual Studio 2022 and run it.
 |   |       202206081025106_Inheritance.cs
 |   |       202206081025106_Inheritance.Designer.cs
 |   |       202206081025106_Inheritance.resx
-|   |       Configuration.cs     
+|   |       Configuration.cs  
+|   |     
 |   +---Models
 |   |       Course.cs
 |   |       Department.cs
@@ -92,10 +99,14 @@ Simply build the project on Visual Studio 2022 and run it.
 |   |       Instructor.cs
 |   |       OfficeAssignment.cs
 |   |       Person.cs
-|   |       Student.cs      
+|   |       Student.cs  
+|   |      
 |   +---obj
+|   |  
 |   +---Properties
+|   |  
 |   +---Scripts  
+|   |  
 |   +---ViewModels
 |   |       AssignedCourseData.cs
 |   |       EnrollmentDateGroup.cs
