@@ -29,99 +29,119 @@ Simply build the project on Visual Studio 2022 and run it.
 
 ## <a name="structure">Tree Structure
 
-ContosoUniversity
- ┣ .config
- ┣ .vscode
- ┣ App_Data
- ┣ App_Start
- ┃ ┣ BundleConfig.cs
- ┃ ┣ FilterConfig.cs
- ┃ ┗ RouteConfig.cs
- ┣ bin
- ┣ Content
- ┣ Controllers
- ┃ ┣ CourseController.cs
- ┃ ┣ DepartmentController.cs
- ┃ ┣ HomeController.cs
- ┃ ┣ InstructorController.cs
- ┃ ┗ StudentController.cs
- ┣ DAL
- ┃ ┣ SchoolConfiguration.cs
- ┃ ┣ SchoolContext.cs
- ┃ ┣ SchoolInicializer.cs
- ┃ ┣ SchoolInterceptorLoggingcs.cs
- ┃ ┗ SchoolInterceptorTransientErrors.cs
- ┣ fonts
- ┃ ┣ glyphicons-halflings-regular.eot
- ┃ ┣ glyphicons-halflings-regular.svg
- ┃ ┣ glyphicons-halflings-regular.ttf
- ┃ ┣ glyphicons-halflings-regular.woff
- ┃ ┗ glyphicons-halflings-regular.woff2
- ┣ Logging
- ┣ Migrations
- ┣ Models
- ┃ ┣ Course.cs
- ┃ ┣ Department.cs
- ┃ ┣ Enrollment.cs
- ┃ ┣ Instructor.cs
- ┃ ┣ OfficeAssignment.cs
- ┃ ┣ Person.cs
- ┃ ┗ Student.cs
- ┣ obj
- ┣ Properties
- ┣ Scripts
- ┣ ViewModels
- ┃ ┣ AssignedCourseData.cs
- ┃ ┣ EnrollmentDateGroup.cs
- ┃ ┗ InstructorIndexData.cs
- ┣ Views
- ┃ ┣ Course
- ┃ ┃ ┣ Create.cshtml
- ┃ ┃ ┣ Delete.cshtml
- ┃ ┃ ┣ Details.cshtml
- ┃ ┃ ┣ Edit.cshtml
- ┃ ┃ ┣ Index.cshtml
- ┃ ┃ ┗ UpdateCourseCredits.cshtml
- ┃ ┣ Department
- ┃ ┃ ┣ Create.cshtml
- ┃ ┃ ┣ Delete.cshtml
- ┃ ┃ ┣ Details.cshtml
- ┃ ┃ ┣ Edit.cshtml
- ┃ ┃ ┗ Index.cshtml
- ┃ ┣ Home
- ┃ ┃ ┣ About.cshtml
- ┃ ┃ ┣ Contact.cshtml
- ┃ ┃ ┗ Index.cshtml
- ┃ ┣ Instructor
- ┃ ┃ ┣ Create.cshtml
- ┃ ┃ ┣ Delete.cshtml
- ┃ ┃ ┣ Details.cshtml
- ┃ ┃ ┣ Edit.cshtml
- ┃ ┃ ┗ Index.cshtml
- ┃ ┣ Shared
- ┃ ┃ ┣ Error.cshtml
- ┃ ┃ ┗ _Layout.cshtml
- ┃ ┣ Student
- ┃ ┃ ┣ Create.cshtml
- ┃ ┃ ┣ Delete.cshtml
- ┃ ┃ ┣ Details.cshtml
- ┃ ┃ ┣ Edit.cshtml
- ┃ ┃ ┗ Index.cshtml
- ┃ ┣ Web.config
- ┃ ┗ _ViewStart.cshtml
- ┣ ContosoUniversity.csproj
- ┣ ContosoUniversity.csproj.user
- ┣ favicon.ico
- ┣ Global.asax
- ┣ Global.asax.cs
- ┣ packages.config
- ┣ Web.config
- ┣ Web.Debug.config
- ┗ Web.Release.config
- ┣ 📂packages
- ┣ 📜.gitignore
- ┣ 📜ContosoUniversity.sln
- ┗ 📜README.md
+.
+|   .gitignore
+|   ContosoUniversity.sln
+|   output.doc
+|   README.md
+|   test 
++---ContosoUniversity
+|   |   ContosoUniversity.csproj
+|   |   ContosoUniversity.csproj.user
+|   |   favicon.ico
+|   |   Global.asax
+|   |   Global.asax.cs
+|   |   packages.config
+|   |   Web.config
+|   |   Web.Debug.config
+|   |   Web.Release.config     
+|   +---App_Data
+|   +---App_Start
+|   |       BundleConfig.cs
+|   |       FilterConfig.cs
+|   |       RouteConfig.cs
+|   +---bin       
+|   +---Content      
+|   +---Controllers
+|   |       CourseController.cs
+|   |       DepartmentController.cs
+|   |       HomeController.cs
+|   |       InstructorController.cs
+|   |       StudentController.cs      
+|   +---DAL
+|   |       SchoolConfiguration.cs
+|   |       SchoolContext.cs
+|   |       SchoolInicializer.cs
+|   |       SchoolInterceptorLoggingcs.cs
+|   |       SchoolInterceptorTransientErrors.cs     
+|   +---fonts     
+|   +---Logging      
+|   +---Migrations
+|   |       202206081010033_Initial.cs
+|   |       202206081010033_Initial.Designer.cs
+|   |       202206081010033_Initial.resx
+|   |       202206081016357_ComplexDataModel.cs
+|   |       202206081016357_ComplexDataModel.designer.cs
+|   |       202206081016357_ComplexDataModel.resx
+|   |       202206081019461_DepartmentSP.cs
+|   |       202206081019461_DepartmentSP.Designer.cs
+|   |       202206081019461_DepartmentSP.resx
+|   |       202206081023343_Rowversion.cs
+|   |       202206081023343_Rowversion.Designer.cs
+|   |       202206081023343_Rowversion.resx
+|   |       202206081025106_Inheritance.cs
+|   |       202206081025106_Inheritance.Designer.cs
+|   |       202206081025106_Inheritance.resx
+|   |       Configuration.cs     
+|   +---Models
+|   |       Course.cs
+|   |       Department.cs
+|   |       Enrollment.cs
+|   |       Instructor.cs
+|   |       OfficeAssignment.cs
+|   |       Person.cs
+|   |       Student.cs      
+|   +---obj
+|   +---Properties
+|   +---Scripts  
+|   +---ViewModels
+|   |       AssignedCourseData.cs
+|   |       EnrollmentDateGroup.cs
+|   |       InstructorIndexData.cs
+|   |       
+|   \---Views
+|       |   Web.config
+|       |   _ViewStart.cshtml
+|       |   
+|       +---Course
+|       |       Create.cshtml
+|       |       Delete.cshtml
+|       |       Details.cshtml
+|       |       Edit.cshtml
+|       |       Index.cshtml
+|       |       UpdateCourseCredits.cshtml
+|       |       
+|       +---Department
+|       |       Create.cshtml
+|       |       Delete.cshtml
+|       |       Details.cshtml
+|       |       Edit.cshtml
+|       |       Index.cshtml
+|       |       
+|       +---Home
+|       |       About.cshtml
+|       |       Contact.cshtml
+|       |       Index.cshtml
+|       |       
+|       +---Instructor
+|       |       Create.cshtml
+|       |       Delete.cshtml
+|       |       Details.cshtml
+|       |       Edit.cshtml
+|       |       Index.cshtml
+|       |       
+|       +---Shared
+|       |       Error.cshtml
+|       |       _Layout.cshtml
+|       |       
+|       \---Student
+|               Create.cshtml
+|               Delete.cshtml
+|               Details.cshtml
+|               Edit.cshtml
+|               Index.cshtml
+|               
+\---packages
 
 [Back to Table of contents](#top)
 
