@@ -38,10 +38,10 @@ Simply build the project on Visual Studio 2022 and run it.
 		┃ ┣ 📂DAL					#Data Access Layer for access to entity-relational database
 		┃ ┣ 📂fonts
 		┃ ┣ 📂Logging
-		┃ ┣ 📂Migrations					#Deploy changes to production without having to drop and re-create the database.
+		┃ ┣ 📂Migrations				#Deploy changes to production without having to drop and re-create the database.
 		┃ ┣ 📂Models					#Determines the shape of the data as public properties and business logic as methods.
 		┃ ┣ 📂Scripts
-		┃ ┣ 📂ViewModels					#Contains fields that are represented in the view				
+		┃ ┣ 📂ViewModels				#Contains fields that are represented in the view				
 		┃ ┣ 📂Views					#Contains template and data form. Receives data from the controller and shows them in the browser.				
 		┃ ┃ ┣ 📂Course
 		┃ ┃ ┣ 📂Department
