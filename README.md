@@ -33,11 +33,9 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃
  ┣ 📂ContosoUniversity
  ┃ ┣ 📂App_Data
-
  ┃ ┣ 📂App_Start
-
  ┃ ┣ 📂bin
- 
+
 
  ┃ ┣ 📂Properties
  ┃ ┃
