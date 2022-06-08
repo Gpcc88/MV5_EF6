@@ -30,8 +30,9 @@ Simply build the project on Visual Studio 2022 and run it.
 ## <a name="structure">Tree Structure
 
 📦ContosoUniversity
- ┃
+
  ┣ 📂ContosoUniversity
+
  ┃ ┣ 📂App_Data
 
  ┃ ┣ 📂App_Start
@@ -43,12 +44,15 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┣ 📂Scripts.
 
  ┃ ┣ 📂ViewModels
+
  ┃ ┃ ┣ 📜AssignedCourseData.cs
  ┃ ┃ ┣ 📜EnrollmentDateGroup.cs
  ┃ ┃ ┗ 📜InstructorIndexData.cs
 
  ┃ ┣ 📂Views
+ 
  ┃ ┃ ┣ 📂Course
+
  ┃ ┃ ┃ ┣ 📜Create.cshtml
  ┃ ┃ ┃ ┣ 📜Delete.cshtml
  ┃ ┃ ┃ ┣ 📜Details.cshtml
@@ -57,6 +61,7 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┃ ┃ ┗ 📜UpdateCourseCredits.cshtml
 
  ┃ ┃ ┣ 📂Department
+
  ┃ ┃ ┃ ┣ 📜Create.cshtml
  ┃ ┃ ┃ ┣ 📜Delete.cshtml
  ┃ ┃ ┃ ┣ 📜Details.cshtml
@@ -64,11 +69,13 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┃ ┃ ┗ 📜Index.cshtml
 
  ┃ ┃ ┣ 📂Home
+
  ┃ ┃ ┃ ┣ 📜About.cshtml
  ┃ ┃ ┃ ┣ 📜Contact.cshtml
  ┃ ┃ ┃ ┗ 📜Index.cshtml
 
  ┃ ┃ ┣ 📂Instructor
+
  ┃ ┃ ┃ ┣ 📜Create.cshtml
  ┃ ┃ ┃ ┣ 📜Delete.cshtml
  ┃ ┃ ┃ ┣ 📜Details.cshtml
@@ -76,10 +83,12 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┃ ┃ ┗ 📜Index.cshtml
 
  ┃ ┃ ┣ 📂Shared
+
  ┃ ┃ ┃ ┣ 📜Error.cshtml
  ┃ ┃ ┃ ┗ 📜_Layout.cshtml
 
  ┃ ┃ ┣ 📂Student
+
  ┃ ┃ ┃ ┣ 📜Create.cshtml
  ┃ ┃ ┃ ┣ 📜Delete.cshtml
  ┃ ┃ ┃ ┣ 📜Details.cshtml
@@ -100,6 +109,7 @@ Simply build the project on Visual Studio 2022 and run it.
  ┃ ┗ 📜Web.Release.config
 
  ┣ 📂packages
+ 
  ┣ 📜.gitignore
  ┣ 📜ContosoUniversity.sln
  ┗ 📜README.md
