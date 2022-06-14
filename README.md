@@ -14,6 +14,7 @@ The CRUD functionality uses addicional features: sortiing, filtering and paging.
 As this project uses a Windows Azure SQL Database, connection resiliency was enabled in order to prevent transient connection errors.
 An Asynchronous programming model was implemented, enhancing performance on the Departments tab.
 Also in the Departments tab, an optimistic concurrency to handle conflits, in the event of simultaneous update or delete, was set in place.
+All nugget packages updated except Bootstrap which cannot be updated past 3.4.1 version.
 
 [Back to Table of contents](#top)
 
